@@ -27,8 +27,7 @@
     * value over several turns: keep clock in mind (strong early, weak later) 
   * influence on the opponent
     * low life -> force: protect
-    * hit -> life        or protect
-    *        \- high hit    \- low hit
+    * hit -> life (-> high hit) or protect (-> low hit)
     * low hit -> low force: higher chance of high hit
     * high hit -> higher dilemma: higher chance of low hit
   * pitch costs one card: 3 value
