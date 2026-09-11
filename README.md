@@ -1,5 +1,6 @@
-# fab
-## Deck building
+fab
+===
+# Deck building
 * hand structure (4 cards) -> deck structure (roles)
 * structure/role > individual card
 * questions for all decks
@@ -10,7 +11,7 @@
   * hero + weapons -> pool
   * cards <-> pool
 
-## Deck playing
+# Deck playing
 * life is a resource
 * theoretical value -> real value: attack + real block - lost life
 * card value
@@ -51,6 +52,30 @@
   * tick is defined by the decrease of the lowest life
   * keep track of turns for stored value: may not have time to realize it
   * Sage is a short game -> luck is higher
+
+# Checklist
+## Start
+1. Who is the sprinter?
+2. What is my life danger zone? f(opp hero)
+## Loading to RAM: CPP
+1. Clock
+2. Puzzle
+3. Prediction
+### Clock
+* track
+  * life: delta for speed + absolute for time left
+  * turns: opportunities in both decks
+ 
+1. me
+2. ?
+3. musketeers
+4. daltons
+5. lucky luke !mid-game!
+6. ?
+7. dwarfs
+8. snow white
+9. ?
+10. ? !full cycle!
 
 # Improvement
 * Beginner
